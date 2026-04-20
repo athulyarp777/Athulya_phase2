@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* Flexbox */
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  background: lightblue;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+/* Form */
+form {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
